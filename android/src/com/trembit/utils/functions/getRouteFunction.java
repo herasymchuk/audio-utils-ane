@@ -8,7 +8,7 @@ import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.adobe.fre.FREWrongThreadException;
 
-public class getRoute implements FREFunction {
+public class getRouteFunction implements FREFunction {
 	
 	@Override
 	public FREObject call(FREContext context, FREObject[] args) {

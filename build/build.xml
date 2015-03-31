@@ -4,10 +4,6 @@
     <!-- Config -->
     <property file="build.config"/>
 
-	<property name="android.sdk" value="${android.sdk.path}/platforms/android-20"/>
-<property name="android.platformtools" value="${android.sdk.path}/platform-tools"/>
-<property name="android.build.tools.dir" value="${android.sdk.path}/build-tools/android-4.4W"/>
-
     <!-- All -->
     <!--target name="all" depends="android,ios,ios-simulator,swc-mobile,swc-default,package" description="Full build of extension"/-->
 	<target name="all" depends="android,ios,swc-mobile,swc-default,package" description="Full build of extension"/>
@@ -39,7 +35,7 @@
 	
     <!-- Android -->
     <target name="android-build" description="Build Android Library">
-		<property name="aapt" location="${android.build.tools.dir}/aapt${exe.ext}"/>
+		<property name="aapt" location="${android.build.tools.dir}/aapt${bin.ext}"/>
 		<property name="source.dir" value="../android/src" />
 		<property name="gen.absolute.dir" location="../android/gen" />
 		<property name="resource.absolute.dir" location="../android/res" />

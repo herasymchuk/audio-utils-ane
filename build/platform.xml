@@ -2,5 +2,6 @@
     <sdkVersion>7.1</sdkVersion>
     <linkerOptions>
         <option>-framework AudioToolbox</option>
+		<option>-framework MediaPlayer</option>
     </linkerOptions>
 </platform>
