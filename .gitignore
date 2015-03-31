@@ -1,0 +1,30 @@
+# General
+temp
+build.config
+
+#IntelliJIdea
+.idea
+*.iml
+
+# Eclipse
+.settings
+.project
+
+# Android
+bin/AirPushNotification_multiMsg.ane
+android/bin
+android/gen
+android/classes
+android/lint.xml
+.classpath
+proguard-project.txt
+project.properties
+
+# Xcode
+xcuserdata
+ios/build
+
+# OS X
+Icon
+Thumbs.db
+.DS_Store
